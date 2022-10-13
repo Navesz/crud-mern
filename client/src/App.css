@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  color-scheme: dark !important;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  color: rgb(224, 224, 224);
+}
+
+.food-add {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px;
+  align-items: center;
+  text-align: center;
+
+}
+
+.food-add h1 {
+  margin-bottom: 10px;
+}
+
+.food-add input,
+.food-add button {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.food-add button:hover {
+  background-color: rgb(149, 126, 170);
+  cursor: pointer;
+}
